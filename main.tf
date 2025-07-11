@@ -24,7 +24,8 @@ resource "aws_instance" "test_server" {
 
   tags = {
     Name      = "TestInstance",
-    ManagedBy = "HCP Terraform"
+    ManagedBy = "HCP Terraform",
+    test = "tera_form"
   }
 }
 
